@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IVA</title>
+    <link rel="stylesheet" href="CSS/style.css"/>
+</head>
+<body>
+  <div class = "container">
+    <main>
+      <section>
+        <article>
+          <h1 class="h1">CALCULADORA DE IVA</h1>
+            <form>
+              <div class="lolo">
+                  <label style="color:red;" for="baseimponible" class="form-label">Base</label>
+                  <input type="number" class="form-control" id="Baseimponible" aria-describedby="100">
+              </div>
+ 
+              <div class="lolo">
+                  <label style="color:red;" for="IVA" class="form-label">IVA</label>
+                  <input type="number" class="form-control" id="IVA" readonly>
+                </div>
+
+              <div class="lolo">
+                  <label style="color:red;"for="Total" class="form-label">Total</label>
+                  <input type="number" class="form-control" id="Total" readonly>
+                </div>
+                <div class="lolo">
+                  <button type="button" class="boton" onclick="Calcular()">CALCULAR</button>
+                  <button type="reset" class="boton" >BORRAR</button>
+                </div>
+            </form>
+
+
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <script src="JS/app.js"></script>
+
+</body>
+
+</html>
